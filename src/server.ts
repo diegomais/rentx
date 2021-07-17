@@ -1,11 +1,13 @@
 import express from 'express';
 
+import { categoriesRoutes } from './routes/categories.routes';
+
 const app = express();
 const port = 3333;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+app.use(express.json());
+
+app.use('/categories', categoriesRoutes);
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
