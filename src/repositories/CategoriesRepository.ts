@@ -30,4 +30,4 @@ class CategoriesRepository {
   }
 }
 
-export default CategoriesRepository;
+export { CategoriesRepository };
