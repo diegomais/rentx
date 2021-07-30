@@ -22,6 +22,8 @@
 
 **RentX** is a rental car management platform that allows you to manage your vehicles, categories, specs, and of course, your rentals!
 
+You can see the [requirements](docs/requirements.md) for more details.
+
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
